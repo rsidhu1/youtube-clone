@@ -19,8 +19,9 @@ class App extends Component {
       }
     });
     this.setState({
-      video: response.data.items
+      videos: response.data.items
     });
+    
   };
 
   render() {
